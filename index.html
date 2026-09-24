@@ -1260,10 +1260,11 @@ footer{
   <p class="eyebrow">Waypoint · Latest</p>
   <h2>News</h2>
   <ul class="news-list">
-    <li><span class="news-date">2026</span><span>Paper accepted at <strong>RoManSy 2026</strong> — presenting in September.</span></li>
+    <li><span class="news-date">2026</span><span>Presented our NMPC research at <strong>RoManSy 2026</strong>. <a href="https://doi.org/10.1007/978-3-032-34511-0_13">Paper DOI</a></span></li>
+    <li><span class="news-date">2026</span><span>Paper on learned-dynamics predictive control accepted at <strong>TOK 2026</strong>.</span></li>
     <li><span class="news-date">2026</span><span>Papers accepted at <strong>SAVTEK 2026</strong> and <strong>UMTIK 2026</strong>.</span></li>
     <li><span class="news-date">2026</span><span>Serving as a <strong>reviewer for TOK 2026</strong> (Turkish National Conference on Automatic Control).</span></li>
-    <li><span class="news-date">2026</span><span>Autonomy Lead of team <strong>ANZU</strong> — TEKNOFEST Advanced Autonomous Systems Competition; design stages passed, finals in 2027.</span></li>
+    <li><span class="news-date">2026</span><span>Leading <strong>TerraDrive</strong>, our TEKNOFEST İKA unmanned ground vehicle team.</span></li>
     <li><span class="news-date">2025</span><span><strong>ArcNav</strong> published at IEEE MMAR 2025.</span></li>
     <li><span class="news-date">2024</span><span>Papers published at <strong>IEEE IDITR 2024</strong> and <strong>UMTIK 2024</strong>.</span></li>
   </ul>
@@ -1288,11 +1289,9 @@ footer{
   <p class="eyebrow">Waypoint · Direction</p>
   <h2>Research</h2>
   <p style="max-width:64ch;margin-bottom:20px">
-    My thesis work builds hierarchical deep-RL navigation for a real 6×6 skid-steer UGV:
-    a latent world model for sample efficiency, per-wheel velocity control for slip
-    compensation, and optimization-based safety filters so that learning failures never
-    reach the actuators. The question underneath all of it: <em>how should safety be
-    enforced when policies are trained inside learned world models?</em>
+    My ongoing M.Sc. research explores reinforcement learning, world models, and
+    control for autonomous navigation of off-road ground robots, with an emphasis
+    on learning efficiency and safety.
   </p>
   <div class="pillars">
     <div class="pillar">
@@ -1301,7 +1300,7 @@ footer{
     </div>
     <div class="pillar">
       <h3>World models for field robots</h3>
-      <p>Latent dynamics models (DreamerV3-style) that stay honest about physics — slip, terrain, and disturbance.</p>
+      <p>Learned dynamics models for navigation and control under slip, varying terrain, and disturbances.</p>
     </div>
     <div class="pillar">
       <h3>Optimal control &amp; NMPC</h3>
@@ -1353,9 +1352,17 @@ footer{
     <div class="pub">
       <span class="pub-year">2026</span>
       <div>
+        <p class="pub-title">Model–Optimizer Interaction in Learned-Dynamics Predictive Control: A Factorial Simulation Study on a 6×6 Unmanned Ground Vehicle <span class="badge acc">Accepted</span></p>
+        <p class="pub-venue">Turkish National Conference on Automatic Control <em>(TOK 2026)</em></p>
+      </div>
+    </div>
+    <div class="pub">
+      <span class="pub-year">2026</span>
+      <div>
         <p class="pub-title">NMPC-Based Energy-Optimal Path Tracking for Skid-Steer UGV <span class="badge acc">Accepted</span></p>
         <p class="pub-authors">Kaan Berke Ulusoy, <strong>Melikşah Beşir</strong>, Erhan İlhan Konukseven</p>
-        <p class="pub-venue">CISM–IFToMM Symposium on Robot Design, Dynamics and Control <em>(RoManSy 2026 — presenting September 2026)</em></p>
+        <p class="pub-venue">CISM–IFToMM Symposium on Robot Design, Dynamics and Control <em>(RoManSy 2026)</em></p>
+        <p class="pub-links"><a href="https://doi.org/10.1007/978-3-032-34511-0_13">DOI</a></p>
       </div>
     </div>
     <div class="pub">
@@ -1381,22 +1388,8 @@ footer{
     <div class="pub">
       <span class="pub-year">2026</span>
       <div>
-        <p class="pub-title">Model–Optimizer Interaction in Learned-Dynamics Predictive Control: A Factorial Simulation Study on a 6×6 Unmanned Ground Vehicle <span class="badge rev">Under review</span></p>
-        <p class="pub-venue">Turkish National Conference on Automatic Control <em>(TOK 2026)</em></p>
-      </div>
-    </div>
-    <div class="pub">
-      <span class="pub-year">2026</span>
-      <div>
         <p class="pub-title">How Much Can Per-Image Classical Filter Selection Help Frozen Object Detectors? A Tie-Aware Oracle, Test–Retest, and Policy-Value Analysis <span class="badge rev">Under review</span></p>
         <p class="pub-venue">The Visual Computer <em>(Q2 journal)</em></p>
-      </div>
-    </div>
-    <div class="pub">
-      <span class="pub-year">2026</span>
-      <div>
-        <p class="pub-title">Image processing and artificial intelligence-based surface finish detection in conventional and ultrasonic-assisted end milling of AA7075 alloy <span class="badge rev">Under review</span></p>
-        <p class="pub-venue">Proc. IMechE Part B: Journal of Engineering Manufacture <em>(Q2 journal)</em></p>
       </div>
     </div>
   </div>
@@ -1408,10 +1401,10 @@ footer{
   <div class="projects">
 
     <article class="project">
-      <div class="project-media"><span>6×6 UGV · Field</span></div>
+      <div class="project-media"><span>Off-road robotics · Research</span></div>
       <div class="project-body">
-        <h3>Hierarchical DRL with Safety Filters for Off-Road Navigation</h3>
-        <p>M.Sc. thesis. PPO high-level planning over TQC+HER per-wheel control, a DreamerV3-style latent world model, and a QP-based constraint-projection safety filter — for a real 6×6 skid-steer platform.</p>
+        <h3>Learning-Based Navigation and Control for Off-Road Robots</h3>
+        <p>M.Sc. thesis in progress on learning-based navigation and control for off-road ground robots, with an emphasis on world models and safety.</p>
         <div class="tags"><span class="tag">Safe RL</span><span class="tag">World models</span><span class="tag">ROS 2</span></div>
       </div>
     </article>
@@ -1420,7 +1413,7 @@ footer{
       <div class="project-media"><span>Optimal control</span></div>
       <div class="project-body">
         <h3>NMPC Energy-Optimal Path Tracking</h3>
-        <p>NMPC trajectory tracking (CasADi + IPOPT) minimizing energy under kinematic constraints; measurable energy savings over Pure Pursuit in field trials. Accepted at RoManSy 2026.</p>
+        <p>NMPC trajectory tracking (CasADi + IPOPT) minimizing energy under kinematic constraints; measurable energy savings over Pure Pursuit in field trials. Presented at RoManSy 2026. <a href="https://doi.org/10.1007/978-3-032-34511-0_13">Paper DOI</a>.</p>
         <div class="tags"><span class="tag">NMPC</span><span class="tag">CasADi</span><span class="tag">Field-tested</span></div>
       </div>
     </article>
@@ -1527,7 +1520,6 @@ footer{
   <p class="eyebrow">Waypoint · Teams &amp; service</p>
   <h2>Competitions &amp; Service</h2>
   <ul class="service-list">
-    <li><span><strong>ANZU</strong> — TEKNOFEST Advanced Autonomous Systems Competition (UAV + UGV, finals 2027)</span><span class="role">Autonomy Lead</span></li>
     <li><span><strong>TerraDrive</strong> — TEKNOFEST İKA unmanned ground vehicle team</span><span class="role">Team Captain</span></li>
     <li><span><strong>TOK 2026</strong> — Turkish National Conference on Automatic Control</span><span class="role">Reviewer</span></li>
     <li><span><strong>Bernoulli FS Racing</strong> — 4th globally, Formula Student Romania; 1st in Türkiye ranking</span><span class="role">Founder &amp; VP</span></li>
